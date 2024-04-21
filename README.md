@@ -17,10 +17,6 @@ numpy == 1.23.5
 pandas == 1.5.3
 ```
 
-## Installation
-
-
 ## MCU code
 
-
-## Data
+The MCU code is in the `MCU_Project` folder. The code is written in C and can be compiled in `Keil`. The code is tested on the STM32F407 board.
