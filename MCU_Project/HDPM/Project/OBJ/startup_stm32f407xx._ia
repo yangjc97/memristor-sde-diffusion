@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I C:\workspace\Keil\HDPM\Project\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+--pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"
+--list .\list\startup_stm32f407xx.lst --xref -o .\obj\startup_stm32f407xx.o --depend .\obj\startup_stm32f407xx.d "RTE\Device\STM32F407ZGTx\startup_stm32f407xx.s"
