@@ -1,6 +1,6 @@
 # memristor-sde-diffusion
 
-Code for "Resistive Memory-based Neural Differential Equation Solver for Score-based Diffusion Model"
+Code for "Resistive memory-based neural differential equation solver for score-based diffusion model"
 
 ## Abstract
 
